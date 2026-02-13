@@ -1,0 +1,38 @@
+{
+  "token": {
+    "name": "CAMEL",
+    "symbol": "CAMEL",
+    "maxSupply": "2222000000000000000000000000",
+    "liquidityReservePercent": 60,
+    "projectReservePercent": 10,
+    "sniperTaxDuration": 10800,
+    "unrevealedURI": "ipfs://YOUR_CID/unrevealed.json"
+  },
+  "protocol": {
+    "weth": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "algebraFactory": "0xfb8Ed3485EfA29a0e4bed93351dD51B59fC4b0f0",
+    "positionManager": "0x0a984a446A116335ac90425d2D1E69A7199A2f7c",
+    "swapRouter": "0x20C5893f69F635f55b0367C519F3f95e59c0b0Ab"
+  },
+  "team": {
+    "artist": "0x0000000000000000000000000000000000000000",
+    "dev": "0x1821BD18CBdD267CE4e389f893dDFe7BEB333aB6"
+  },
+  "liquidity": {
+    "initialWethAmount": "0",
+    "initialSqrtPriceX96": "1662659951735467788922500811849728",
+    "tickLower": -887220,
+    "tickUpper": 887220
+  },
+  "whitelist": {
+    "merkleRoot": "0x8ed50886b2f4aae917ac0ebacf1be1b4e5a737eac9f421c4f10f03da72c68733",
+    "mintAmount": "1000000000000000000000000",
+    "enableAtLaunch": true
+  },
+  "roles": {
+    "artistRole": 4,
+    "devRole": 8,
+    "liquidityRole": 2,
+    "metadataRole": 1
+  }
+}

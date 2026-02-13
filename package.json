@@ -1,0 +1,29 @@
+{
+  "name": "camel404",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "setup": "node scripts/setup.mjs",
+    "chain:start": "node scripts/chain-start.mjs",
+    "chain:start:mints": "node scripts/chain-start.mjs --stage mints",
+    "chain:start:trading": "node scripts/chain-start.mjs --stage trading",
+    "chain:start:full": "node scripts/chain-start.mjs --stage full",
+    "chain:deploy": "node scripts/deploy.mjs",
+    "chain:stop": "node scripts/chain-stop.mjs"
+  },
+  "dependencies": {
+    "@monygroupcorp/micro-web3": "^1.4.2",
+    "@monygroupcorp/microact": "^0.2.2",
+    "ethers": "^5.7.2",
+    "merkletreejs": "^0.4.0"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "util": "^0.12.5",
+    "vite": "^4.4.5"
+  }
+}

@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Prompt / planning artifacts
+SUBAGENT_PROMPTS.md
+LAUNCH_PLAN.md
+docs/plans/
+
+# Backup files
+*.bak
+
+# Audit prep (internal)
+AUDIT_PREP/
+
+# Foundry / contracts build artifacts
+contracts/cache/
+contracts/out/
+contracts/lib/
+
+# Environment
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+contracts/
