@@ -28,7 +28,7 @@ Working checklist for final days before launch. Items ordered by dependency and 
 
 ## 3. Whitelist
 
-- [x] **Finalize whitelist addresses** — 17,904 addresses (xCYPH, Remilio, Milady, CULT) in `src/data/camel.json`
+- [x] **Finalize whitelist addresses** — 17,904 addresses (sxCYPH, Remilio, Milady, CULT) in `src/data/camel.json`
 - [x] **Generate merkle tree** — root in camel.json, proofs generated client-side via merkle.js
 - [x] **Update `whitelist.merkleRoot`** in `launch-config.json`
 - [x] **Set up proof serving** — merkle.js builds tree from camel.json, generates proofs on-demand. TabbedCard.js updated to use merkle.js in production (stageData fallback for dev)

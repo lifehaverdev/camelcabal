@@ -919,7 +919,7 @@ class TabbedCard extends Component {
 
       // Not on whitelist
       connected && whitelistChecked && !onWhitelist && h('div', { className: 'claim-ineligible' },
-        h('p', null, 'Your wallet is not on the whitelist. Free mints are reserved for xCYPH stakers, Remilio holders, Milady holders, and CULT holders.')
+        h('p', null, 'Your wallet is not on the whitelist. Free mints are reserved for sxCYPH stakers, Remilio holders, Milady holders, and CULT holders.')
       ),
 
       // On whitelist, already claimed (only possible when contracts deployed)
@@ -927,7 +927,7 @@ class TabbedCard extends Component {
         h('div', { className: 'whitelist-badge claimed' }, 'Claimed'),
         h('p', { className: 'whitelist-info' }, 'You have already claimed your free mint'),
         h('div', { className: 'claim-communities-inline' },
-          h('span', { className: 'claim-community' }, 'xCYPH'),
+          h('span', { className: 'claim-community' }, 'sxCYPH'),
           h('span', { className: 'claim-community' }, 'Remilio'),
           h('span', { className: 'claim-community' }, 'Milady'),
           h('span', { className: 'claim-community' }, 'CULT')
@@ -939,7 +939,7 @@ class TabbedCard extends Component {
         h('div', { className: 'whitelist-badge' }, 'Eligible'),
         h('p', { className: 'whitelist-info' }, 'You are eligible for a free CAMEL mint'),
         h('div', { className: 'claim-communities-inline' },
-          h('span', { className: 'claim-community' }, 'xCYPH'),
+          h('span', { className: 'claim-community' }, 'sxCYPH'),
           h('span', { className: 'claim-community' }, 'Remilio'),
           h('span', { className: 'claim-community' }, 'Milady'),
           h('span', { className: 'claim-community' }, 'CULT')
